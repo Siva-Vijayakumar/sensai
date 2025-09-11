@@ -1,0 +1,76 @@
+/* PDF-safe Tailwind overrides */
+:root {
+  --radius: 0.625rem;
+  --background: #ffffff;
+  --foreground: #222222;
+  --card: #ffffff;
+  --card-foreground: #222222;
+  --popover: #ffffff;
+  --popover-foreground: #222222;
+  --primary: #000000;
+  --primary-foreground: #ffffff;
+  --secondary: #f0f0f0;
+  --secondary-foreground: #000000;
+  --muted: #e0e0e0;
+  --muted-foreground: #555555;
+  --accent: #f5f5f5;
+  --accent-foreground: #000000;
+  --destructive: #ff4d4f;
+  --border: #cccccc;
+  --input: #e5e5e5;
+  --ring: #999999;
+  --chart-1: #ff9999;
+  --chart-2: #99ccff;
+  --chart-3: #9966ff;
+  --chart-4: #66ff99;
+  --chart-5: #ffcc66;
+  --sidebar: #ffffff;
+  --sidebar-foreground: #222222;
+  --sidebar-primary: #000000;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #f5f5f5;
+  --sidebar-accent-foreground: #000000;
+  --sidebar-border: #cccccc;
+  --sidebar-ring: #999999;
+}
+
+.dark {
+  --background: #222222;
+  --foreground: #ffffff;
+  --card: #333333;
+  --card-foreground: #ffffff;
+  --popover: #333333;
+  --popover-foreground: #ffffff;
+  --primary: #ffffff;
+  --primary-foreground: #000000;
+  --secondary: #444444;
+  --secondary-foreground: #ffffff;
+  --muted: #555555;
+  --muted-foreground: #cccccc;
+  --accent: #666666;
+  --accent-foreground: #ffffff;
+  --destructive: #ff4d4f;
+  --border: #666666;
+  --input: #555555;
+  --ring: #999999;
+  --chart-1: #ff6666;
+  --chart-2: #66ccff;
+  --chart-3: #9966ff;
+  --chart-4: #66ff99;
+  --chart-5: #ffcc66;
+  --sidebar: #333333;
+  --sidebar-foreground: #ffffff;
+  --sidebar-primary: #ffffff;
+  --sidebar-primary-foreground: #000000;
+  --sidebar-accent: #666666;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: #666666;
+  --sidebar-ring: #999999;
+}
+
+/* Force PDF-safe background/foreground */
+#resume-pdf, #resume-pdf * {
+  background-color: var(--background) !important;
+  color: var(--foreground) !important;
+  border-color: var(--border) !important;
+}
