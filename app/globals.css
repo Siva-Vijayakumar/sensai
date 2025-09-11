@@ -174,3 +174,13 @@
 }
 
 
+html, body {
+  min-height: 100%;
+  height: auto;
+  overflow-y: auto;   /* allow vertical scroll */
+}
+
+main, #resume-pdf {
+  min-height: 100vh;
+  overflow: visible;  /* ensure PDF section grows */
+}
