@@ -196,7 +196,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "C:\\Users\\sivav\\OneDrive\\Desktop\\SenseAi\\my-app\\generated\\prisma",
+      "value": "C:\\Users\\sivav\\OneDrive\\Documents\\Project Folders\\SenseAi\\my-app\\generated\\prisma",
       "fromEnvVar": null
     },
     "config": {
@@ -210,11 +210,11 @@ const config = {
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "C:\\Users\\sivav\\OneDrive\\Desktop\\SenseAi\\my-app\\prisma\\schema.prisma",
+    "sourceFilePath": "C:\\Users\\sivav\\OneDrive\\Documents\\Project Folders\\SenseAi\\my-app\\prisma\\schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
-    "rootEnvPath": "../../.env",
+    "rootEnvPath": null,
     "schemaEnvPath": "../../.env"
   },
   "relativePath": "../../prisma",
@@ -224,6 +224,7 @@ const config = {
     "db"
   ],
   "activeProvider": "postgresql",
+  "postinstall": false,
   "inlineDatasources": {
     "db": {
       "url": {
